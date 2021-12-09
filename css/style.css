@@ -1351,3 +1351,28 @@ input[type="text"] {
 .custom-font {
   font-family: "Kaushan Script", cursive;
 }
+
+.concert-img {
+  background-image: url(../images/concert.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 600px;
+}
+
+@media screen and (max-width: 992px) {
+  .concert-img {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .concert-img {
+    height: 400px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .concert-img {
+    height: 200px;
+  }
+}
